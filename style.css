@@ -62,11 +62,11 @@ main{
 }
 
 .junkbox{
-    width: 50%;
+    width: 40%;
     border-radius: 40px;
     min-height: 200px;
     background-color: var(--disc-jbx);
-    display: flex;
+    margin: auto;
 }
 
 section{
