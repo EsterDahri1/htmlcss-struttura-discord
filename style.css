@@ -20,12 +20,6 @@ header{
     height: 70px;
 }
 
-/*.flex_container, .flex_bar{
-    width:80%;
-    max-width: 1170;
-    margin: auto;
-}*/
-
 .flex_bar{
     background-color: var(--disc-fbar);
     min-height:70px;
