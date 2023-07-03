@@ -8,6 +8,11 @@
     --disc-hbg: #d8d9db;
     --disc-fbar: #4d4d51;
     --disc-hel: #d9817d;
+    --disc-mbg: #95a8e3;
+    --disc-fbg: #4574fe;
+    --disc-s1_3: #f9f9f9;
+    --disc-s2_4: #f6f6f6;
+    --disc-jbx: #abaebd;
 }
 
 header{
@@ -15,22 +20,28 @@ header{
     height: 70px;
 }
 
-.flex_bar{
-    background-color: var(--disc-fbar);
+/*.flex_container, .flex_bar{
     width:80%;
     max-width: 1170;
     margin: auto;
+}*/
+
+.flex_bar{
+    background-color: var(--disc-fbar);
     min-height:70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:80%;
+    max-width: 1170;
+    margin: auto;
 }
 
 .logo, nav, .button{
     background-color: var(--disc-hel);
-    min-height: 50px;
+    height: 30px;
     border-style: dashed;
-    padding: 1rem 0;
+    padding: 0.2rem 0;
 }
 
 .logo, .button{
@@ -44,4 +55,33 @@ nav{
 
 .button{
     text-align: end;
+}
+
+main{
+    background-color: var(--disc-mbg);
+}
+
+.junkbox{
+    width: 50%;
+    border-radius: 40px;
+    min-height: 200px;
+    background-color: var(--disc-jbx);
+    display: flex;
+}
+
+section{
+    min-height: 400px;
+}
+
+.invite, .fandom{
+    background-color: var(--disc-s1_3);
+}
+
+.hangout, .videocall{
+    background-color: var(--disc-s2_4);
+}
+
+footer{
+    background-color: var(--disc-fbg);
+    min-height: 400px;
 }
