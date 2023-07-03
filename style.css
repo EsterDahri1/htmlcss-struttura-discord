@@ -10,8 +10,8 @@
     --disc-hel: #d9817d;
     --disc-mbg: #95a8e3;
     --disc-fbg: #4574fe;
-    --disc-s1_3: #f9f9f9;
-    --disc-s2_4: #f6f6f6;
+    --disc-s1_3: #ffffff;
+    --disc-s2_4: #e8e6e6;
     --disc-jbx: #abaebd;
 }
 
@@ -72,21 +72,23 @@ nav{
 }
 
 section{
-    min-height: 600px;
+    min-height: 500px;
+    padding-top: 50px;
 }
 
 .invite, .fandom{
     background-color: var(--disc-s1_3);
+    
 }
 
 .hangout, .videocall{
     background-color: var(--disc-s2_4);
 }
 
-.container, .container_big{
+.container, .container_big, .container_foot{
     background-color: #fadb9f;
     width:80%;
-    margin: 50px auto;
+    margin: auto;
     padding: 15px 0;
     display: flex;
 }
@@ -96,12 +98,13 @@ section{
 }
 
 .container_big{
-    min-height: 500px;
+    min-height: 400px;
+    padding-bottom: 30px 0;
 }
 
 .row{
     background-color: #cec3ab;
-    min-height: 100px;
+    min-height: 200px;
     display: flex; 
     width:100%
 }
@@ -125,4 +128,44 @@ section{
 footer{
     background-color: var(--disc-fbg);
     min-height: 400px;
+    padding: 10px 0;
+}
+
+.container_foot{
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row_foot{
+    background-color: #cec3ab;
+    min-height: 350px;
+    display: flex; 
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col_fbig{
+    width: 25%;
+    background-color: #8fe2aa;
+    border-style: dashed;
+    height: 250px;
+}
+
+.col_fsmall{
+    width: calc(70%/4);
+    background-color: #fadb9f;
+    border-style: dashed;
+    height:250px;
+}
+
+.deco{
+    background-color: #4d4d51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width:100%;
+    margin: auto;
 }
