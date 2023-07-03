@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --disc-hbg: #d8d9db;
+    --disc-fbar: #4d4d51;
+    --disc-hel: #d9817d;
+}
+
+header{
+    background-color: var(--disc-hbg);
+    height: 70px;
+}
+
+.flex_bar{
+    background-color: var(--disc-fbar);
+    width:80%;
+    max-width: 1170;
+    margin: auto;
+    min-height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, nav, .button{
+    background-color: var(--disc-hel);
+    min-height: 50px;
+    border-style: dashed;
+    padding: 1rem 0;
+}
+
+.logo, .button{
+    width: 25%;
+}
+
+nav{
+    width: 50%;
+    text-align: center;
+}
+
+.button{
+    text-align: end;
+}
