@@ -57,6 +57,12 @@ nav{
     text-align: end;
 }
 
+.jkbx_container{
+    background-color: var(--disc-mbg);
+    min-height: 400px;
+    display: flex;
+}
+
 .junkbox{
     width: 40%;
     border-radius: 40px;
