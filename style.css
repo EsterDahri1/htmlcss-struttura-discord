@@ -57,20 +57,16 @@ nav{
     text-align: end;
 }
 
-main{
-    background-color: var(--disc-mbg);
-}
-
 .junkbox{
     width: 40%;
     border-radius: 40px;
     min-height: 200px;
     background-color: var(--disc-jbx);
-    margin: auto;
+    margin: 50px auto;
 }
 
 section{
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .invite, .fandom{
@@ -79,6 +75,45 @@ section{
 
 .hangout, .videocall{
     background-color: var(--disc-s2_4);
+}
+
+.container, .container_big{
+    background-color: #fadb9f;
+    width:80%;
+    margin: 50px auto;
+    padding: 15px 0;
+    display: flex;
+}
+
+.container{
+    min-height: 300px;
+}
+
+.container_big{
+    min-height: 500px;
+}
+
+.row{
+    background-color: #cec3ab;
+    min-height: 100px;
+    display: flex; 
+    width:100%
+}
+
+.col_big, .col_small{
+    margin-top: 0.5rem;
+    border-width: 3px;
+    border-style: dotted;
+    height: 250px;
+    background-color: #8fe2aa;
+}
+
+.col_big{
+    width: 60%;
+}
+
+.col_small{
+    width:40%;
 }
 
 footer{
