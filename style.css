@@ -84,7 +84,6 @@ section{
     width:80%;
     margin: auto;
     padding: 15px 0;
-    display: flex;
 }
 
 .container{
@@ -98,7 +97,7 @@ section{
 
 .row{
     background-color: #cec3ab;
-    min-height: 200px;
+    min-height: 270px;
     display: flex; 
     width:100%
 }
