@@ -51,13 +51,13 @@ nav{
     text-align: end;
 }
 
-.jkbx_container{
+.jtbx_container{
     background-color: var(--disc-mbg);
     min-height: 400px;
     display: flex;
 }
 
-.junkbox{
+.jumbotron{
     width: 40%;
     border-radius: 40px;
     min-height: 200px;
